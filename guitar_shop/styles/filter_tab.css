@@ -1,0 +1,96 @@
+/*outside container*/
+.body_container_products {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	flex-wrap: wrap;
+}
+
+/*
+#filters_container div {
+	border: 1px solid yellowgreen;
+	/*margin-left: 5%;
+}*/
+
+#filters_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-basis: 20%;
+	margin-right: 2%;
+	border-radius: 20px;
+	border: 3px solid #fb3640;
+	margin-bottom: 1%;
+}
+
+#main {
+	flex-basis: 70%;
+	align-items: flex-start;
+	border-radius: 20px;
+}
+
+#filters_title {
+	width: 100%;
+}
+
+#filters_title > h2 {
+	color: #fb3640;
+	text-align: center;
+}
+
+#submit {
+	margin-bottom: 5%;
+}
+
+hr {
+	border-top: 3px solid #fb3640;
+	border-left: transparent;
+	border-right: transparent;
+	border-bottom: transparent;
+	width: 90%;
+}
+
+.filters_elem {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: #bfcde0;
+}
+
+.filters_elem > div {
+	margin: 3%;
+}
+
+form {
+	width: 100%;
+}
+
+input[type="number"] {
+	width: 70px;
+}
+
+input[type="submit"] {
+	width: 70px;
+	height: 30px;
+	padding: 3%;
+	font-weight: bolder;
+	background-color: #fb3640;
+	border: 0;
+	text-transform: uppercase;
+	border-radius: 3px;
+	color: #0a2463;
+	margin-bottom: 3%;
+}
+
+input[type="submit"]:hover {
+	background-color: #ff5d65;
+	cursor: pointer;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	transform: scale(1.2);
+}

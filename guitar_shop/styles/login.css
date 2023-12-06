@@ -1,0 +1,152 @@
+#outside_container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	flex-wrap: wrap;
+	/* border: 1px solid red; */
+}
+
+#logo {
+	/*border: 1px solid white;*/
+	margin-top: 4%;
+	margin-bottom: 2%;
+}
+
+#login_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-basis: 60%;
+	margin-right: 2%;
+	border-radius: 20px;
+	border: 3px solid #fb3640;
+	font-weight: normal;
+}
+
+#form {
+	border: 1px solid white;
+	padding: 20px;
+	margin-bottom: 2%;
+}
+
+h2 {
+	display: inline;
+	color: #fb3640;
+}
+
+#title {
+	margin-bottom: 6%;
+}
+
+.login_elem {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: #bfcde0;
+}
+
+.login_elem > div {
+	margin: 4%;
+}
+
+input[type="text"],
+input[type="password"] {
+	width: 120px;
+}
+
+input[type="submit"] {
+	width: 70px;
+	height: 30px;
+	padding: 3%;
+	font-weight: bolder;
+	background-color: #fb3640;
+	border: 0;
+	border-radius: 3px;
+	color: #0a2463;
+	margin-top: 5%;
+}
+
+input[type="submit"]:hover {
+	background-color: #ff5d65;
+	cursor: pointer;
+}
+
+/* form div {
+	border: 1px solid red;
+} */
+
+/*REGISTER BUTTON*/
+#register {
+	/* border: 1px solid white; */
+	margin-bottom: 4%;
+	margin-top: 1%;
+	margin-left: 2%;
+	margin-right: 2%;
+	display: flex;
+	width: 60%;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#register > div {
+	/* border: inherit; */
+	margin: 1%;
+}
+
+#register p,
+#wrong_credentials p {
+	color: #bfcde0;
+}
+
+#register a {
+	text-decoration: none;
+	font-size: 15px;
+	color: #0a2463;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #fb3640;
+	border-radius: 3px;
+	padding: 6%;
+}
+
+#register a:hover {
+	background-color: #ff5d65;
+	border-radius: 5px;
+}
+
+#register a:visited {
+	color: #0a2463;
+}
+
+#register a:active {
+	color: #0a2463;
+}
+
+/*STYLING FOR WHEN LOGGED IN MESSAGE*/
+#msg_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-basis: 40%;
+	margin-right: 2%;
+	border-radius: 20px;
+	border: 3px solid #fb3640;
+	font-weight: normal;
+}
+
+#msg {
+	margin: 2%;
+}
+
+#msg > p {
+	color: #bfcde0;
+}
+
+/*WRONG CREDENTIALS DIV*/
+#wrong_credentials {
+	margin-top: 1%;
+}

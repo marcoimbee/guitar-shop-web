@@ -1,0 +1,133 @@
+#outside_container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	flex-wrap: wrap;
+	/* border: 1px solid red; */
+}
+
+#logo {
+	/*border: 1px solid white;*/
+	margin-top: 4%;
+	margin-bottom: 2%;
+}
+
+#title > h2 {
+	display: inline;
+	color: #fb3640;
+}
+
+#title {
+	margin-bottom: 6%;
+}
+
+#register_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-basis: 60%;
+	margin-right: 2%;
+	border-radius: 20px;
+	border: 3px solid #fb3640;
+	font-weight: normal;
+}
+
+#form {
+	border: 1px solid #bfcde0;
+	padding: 20px;
+	margin-bottom: 4%;
+	width: 50%;
+}
+
+/* #form div {
+	border: 1px solid red;
+} */
+
+#form_content {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.form_elem {
+	margin-bottom: 2%;
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+	flex-wrap: wrap;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="password"],
+input[type="email"] {
+	width: 40%;
+	/* border: 1px solid red;*/
+}
+
+p {
+	color: #bfcde0;
+	text-align: left;
+	line-break: strict;
+	padding: 0;
+	margin: 0;
+}
+
+/*REGISTER / RESET BUTTONS*/
+#buttons {
+	justify-content: space-around;
+}
+
+input[type="button"],
+input[type="reset"] {
+	font-size: 15px;
+	color: #0a2463;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #fb3640;
+	border-radius: 3px;
+	padding: 1%;
+	border: 0;
+	padding: 5px;
+	margin-top: 2%;
+}
+
+input[type="button"]:hover,
+input[type="reset"]:hover {
+	background-color: #ff5d65;
+}
+
+#alert {
+	margin-top: 4%;
+}
+
+/*STYLING FOR WHEN REGISTERED - FOR WHEN TRYING TO REGISTER BUT ALREADY REGISTERED*/
+/**/
+#msg_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-basis: 40%;
+	margin-right: 2%;
+	border-radius: 20px;
+	border: 3px solid #fb3640;
+	font-weight: normal;
+}
+
+#msg {
+	margin: 4%;
+}
+
+#loginLink,
+#loginLink:visited,
+#loginLink:active {
+	color: #fb3640;
+}
+
+/*USERNAME ALREADY TAKEN DIV*/
+#username_taken {
+	margin-top: 1%;
+}
