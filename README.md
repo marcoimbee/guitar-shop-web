@@ -13,4 +13,4 @@ Web development project developed for the "Web Development" course at the Univer
 7) Ajax
 
 ## Notes
-Please note that this implementation doesn't take into account any asoect related to web security.
+Please note that this implementation doesn't take into account any aspect related to web security.
