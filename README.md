@@ -12,5 +12,8 @@ Web development project developed for the "Web Development" course at the Univer
 6) PHP
 7) Ajax
 
+## Language
+Italian
+
 ## Notes
 Please note that this implementation doesn't take into account any aspect related to web security.
