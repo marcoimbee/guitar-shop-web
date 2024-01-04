@@ -39,16 +39,6 @@ CREATE TABLE `account` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `account`
---
-
-LOCK TABLES `account` WRITE;
-/*!40000 ALTER TABLE `account` DISABLE KEYS */;
-INSERT INTO `account` VALUES (1,'Marco','Imbelli Cai','marcoimbelli@yahoo.it','marcoimbee','$2y$10$gIH6uDHrcHPShVXJUqx/CuupLgXkdQ3CfEKl.mqg5dIohWWKlPau.','via manzoni 4'),(2,'filippo','lupetti','fililupe@gmail.com','lupo98','$2y$10$BlwuQrz3dXbl7o8XapBrM.Y9okfV7lx8ru2Lg41a0m1aQEK5uXbAy','via battelli 54');
-/*!40000 ALTER TABLE `account` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `credit_card`
 --
 
@@ -67,16 +57,6 @@ CREATE TABLE `credit_card` (
   CONSTRAINT `account_credit` FOREIGN KEY (`Account_FK`) REFERENCES `account` (`ID`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `credit_card`
---
-
-LOCK TABLES `credit_card` WRITE;
-/*!40000 ALTER TABLE `credit_card` DISABLE KEYS */;
-INSERT INTO `credit_card` VALUES (1,1,2147483647,'imbelli cai marco','2023-12-12',12342),(2,2,2147483647,'lupetti filippo','2021-12-12',231245);
-/*!40000 ALTER TABLE `credit_card` ENABLE KEYS */;
-UNLOCK TABLES;
 
 --
 -- Table structure for table `product`
